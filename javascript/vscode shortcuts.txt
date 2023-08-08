@@ -1,0 +1,6 @@
+shift+alt+O - get rid of unused imports
+ctrl+/ - comments text
+ctrl+. - generate constructors etc
+
+
+spring-data-jpa-course
