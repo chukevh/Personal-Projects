@@ -21,6 +21,7 @@ const todos = [
     }
 ]
 
+// runs function on each variable 'todo'
 todos.forEach(function(todo) {
     console.log(todo.text);
 });
