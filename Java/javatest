@@ -1,0 +1,22 @@
+class animal {
+    String s;
+
+    public animal(String name) {
+        this.s = name;
+    }
+
+    public void animalSound() {
+        sysout("This is the sound of an animal" + this.s);
+    }
+}
+
+class dog extends animal {
+    public void animalSound() {
+        sysout("woof");
+    }
+}
+
+public static void main(String[] args) {
+    dog d = new dog();
+    d.animalsound();
+}

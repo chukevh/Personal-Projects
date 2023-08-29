@@ -1,27 +1,17 @@
-// For
-for(let i = 0; i < 10; i++) {
-    console.log(i);
-}
+// Single element
+console.log(document.getElementById('my-form'));
+console.log(document.querySelector('h1'));
+const form = document.getElementById('my-form');
 
-const todos = [
-    {
-        id: 0,
-        text: 'Buy groceries',
-        isComplete: false
-    },
-    {
-        id: 2,
-        text: 'See my doctor',
-        isComplete: false
-    },
-    {
-        id: 3,
-        text: 'Do Erica',
-        isComplete: true
-    }
-]
 
-// runs function on each variable 'todo'
-todos.forEach(function(todo) {
-    console.log(todo.text);
-});
+// Multiple element
+console.log(document.querySelectorAll('.item'));
+const items = document.querySelectorAll('.item');
+items.forEach((item) => console.log(item));
+
+
+const ul = document.querySelector('.items');
+// ul.remove();
+
+const btn = document.querySelector('.btn');
+btn.computedStyleMap.background('red');

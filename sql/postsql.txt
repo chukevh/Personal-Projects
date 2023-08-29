@@ -13,6 +13,9 @@ DROP DATABASE [name];
 \d
 -list table
 
+\du
+-list all users
+
 python "C:\Users\Rising Edge\Desktop\coding\javascript\number.py"
 
 //CREATE TABLES
