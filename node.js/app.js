@@ -1,9 +1,4 @@
-const amount = 12;
+const names = require('./2-names')
+const sayHi = require('./3-utils')
 
-if (amount < 10) {
-    console.log("True");
-} else {
-    console.log("False");
-}
-
-console.log(`hey it's me your first app`);
+sayHi(names.erica)

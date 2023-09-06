@@ -80,7 +80,7 @@ const person = {
     hobbies: ['TFT', 'Valorant', 'Kev'],
     address: {
         city: 'Sydney',
-        suburb: 'Carlton'
+        suburb: 'Somewhere in Sydney'
     }
 }
 
@@ -113,7 +113,7 @@ const todos = [
     },
     {
         id: 3,
-        text: 'Do Erica',
+        text: 'See Erica',
         isComplete: true
     }
 ]
