@@ -1,31 +1,26 @@
 // import React from "react"
 // import ReactDOM from "react-dom"
 
-const navbar = (
-    <nav>
-        <h1>Kevin's shop</h1>
-        <ul>
-            <li>Pricing</li>
-            <li>Merch</li>
-            <li>About</li>
-        </ul>
-    </nav>
-)
+function Page() {
+    return (
+        <div>
+            <header>
+                <nav>
+                    <img src="./github.png" width="40px"/>
+                </nav>
+            </header>
+            <h1>Why I'm excited to learn React</h1>
+            <ul>
+                <li>It's sick</li>
+                <li>Frontend is easy af</li>
+            </ul>
+            <footer>
+                <small>Copyright 2023 Kevin Chu Development. All rights reserved.</small>
+            </footer>
+        </div>
+    )
+}
 
-const hey = (
-    <h1>Hey Erica</h1>
-)
 
-const shopWelcome = (
-    <h2>Welcome to my shop</h2>
-)
 
-ReactDOM.render(navbar, document.getElementById("root"))
-//document.getElementById("root").append(JSON.stringify(navbar))
-
-// reactDOM.render(
-//     <div>
-//         <Header />
-//     </div>
-//     , document.getElementById("root")
-// )
+ReactDOM.render(<Page />, document.getElementById("root"))

@@ -23,3 +23,12 @@ const navbar = (
 
 
 ReactDOM.render(navbar, document.getElementById("root"))
+// React renders the elements, it's just JSON objects
+//document.getElementById("root").append(JSON.stringify(navbar))
+
+// reactDOM.render(
+//     <div>
+//         <Header />
+//     </div>
+//     , document.getElementById("root")
+// )
