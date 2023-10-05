@@ -18,3 +18,7 @@ it('should pass object with correct values to save', function() {
   save.restore();
   sinon.assert.calledWith(save, expectedUser);
 });
+
+// https://www.simplilearn.com/tutorials/nodejs-tutorial/nodejs-interview-questions
+// https://www.javatpoint.com/node-js-interview-questions
+// https://intellipaat.com/blog/interview-question/node-js-interview-questions/
