@@ -8,6 +8,6 @@ const callbackB = () => {
 customEmitter.on('event', callbackB)
 
 customEmitter.emit('event')
-
+// removes listener
 customEmitter.removeListener('event', callbackB)
 
