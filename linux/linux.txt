@@ -1,0 +1,19 @@
+echo test >text1.txt
+- puts words in text
+
+cat text1.txt
+- prints words in file
+
+cat text1.txt >text2.txt
+- copies words in text to another text
+
+sudo
+- admin priviliges
+
+sudo apt update
+sudo apt upgrade
+sudo apt install
+- package manager to update/upgrade software
+
+nano text
+- opens text manager
