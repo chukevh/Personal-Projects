@@ -1,4 +1,6 @@
 // React component - returns react elements, (UI), resuable code
+import Header from "./Header.js"
+
 
 function Page() {
     return (
@@ -14,9 +16,8 @@ function Header() {
     return (
         <header>
             <nav className="nav">
-                <img src="./github.png" width="40px"/>
+                <img src="./github.png" width = "40px" className="nav-logo" />
                 <ul className="nav-items">
-                    
                     <li>Pricing</li>
                     <li>About</li>
                     <li>Contact</li>
@@ -28,7 +29,7 @@ function Header() {
 
 function MainContent() {
     return (
-        <div>
+        <div className="main-body">
             <h1>Why I'm excited to learn React</h1>
             <ol>
                 <li>React is Cool</li>
@@ -41,7 +42,7 @@ function MainContent() {
 
 function Footer()  {
     return (
-        <footer>
+        <footer className="footer">
             <small>Copyright 2023 Kevin Chu Development. All rights reserved.</small>
         </footer>
     )
