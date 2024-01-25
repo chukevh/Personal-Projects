@@ -3,6 +3,7 @@ import boxes from "./boxes.js"
 import style from "./style.css"
 import Box from "./Box.js"
 import Messages from "./Messages.js"
+import Form from "./Form.js"
 
 //import './App.css';
 
@@ -33,6 +34,7 @@ export default function App() {
             <h1>Boxes will go here</h1>
             {squaresElement}
             <Messages />
+            <Form />
         </div>
     )
 }

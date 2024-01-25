@@ -13,3 +13,5 @@ export default function Messages() {
         </div>
     )
 }
+
+// conditional rendering sometimes display things or not based on a condition
